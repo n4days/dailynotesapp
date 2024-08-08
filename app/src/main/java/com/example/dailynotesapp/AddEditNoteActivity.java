@@ -8,7 +8,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
-public class AddEditNoteActivity extends AppCompatActivity {private EditText etTitle, etContent;
+public class AddEditNoteActivity extends AppCompatActivity {
+    private EditText etTitle, etContent;
     private Button btnSave;
     private DatabaseHelper dbHelper;
     private Note note;
